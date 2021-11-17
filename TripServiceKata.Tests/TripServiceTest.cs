@@ -1,16 +1,15 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 using TripServiceKata.Trip;
+using Xunit;
 
 namespace TripServiceKata.Tests
 {
-    [TestClass]
     public class TripServiceTest
     {
-        [TestMethod]
+        [Fact]
         public void TestMethod1()
         {
             TripService tripService = new TripService();
+            Assert.True(false);
         }
     }
 }
